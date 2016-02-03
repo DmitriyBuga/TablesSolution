@@ -1,0 +1,9 @@
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\obj\Debug\MySqlConnectPlugIn.csprojResolveAssemblyReference.cache
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\bin\Debug\MySqlConnectPlugIn.dll.config
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\bin\Debug\MySqlConnectPlugIn.dll
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\bin\Debug\MySqlConnectPlugIn.pdb
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\bin\Debug\IPluginsConnect.dll
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\bin\Debug\MySql.Data.dll
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\bin\Debug\IPluginsConnect.pdb
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\obj\Debug\MySqlConnectPlugIn.dll
+D:\VSPRJ\TablesSolution\MySqlConnectPlugIn\obj\Debug\MySqlConnectPlugIn.pdb

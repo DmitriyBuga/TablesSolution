@@ -1,0 +1,15 @@
+C:\VSProjects\TablesSolution\SqlConnectPlugIn\bin\Debug\SqlConnectPlugIn.dll
+C:\VSProjects\TablesSolution\SqlConnectPlugIn\bin\Debug\SqlConnectPlugIn.pdb
+C:\VSProjects\TablesSolution\SqlConnectPlugIn\bin\Debug\IPluginsConnect.dll
+C:\VSProjects\TablesSolution\SqlConnectPlugIn\bin\Debug\IPluginsConnect.pdb
+C:\VSProjects\TablesSolution\SqlConnectPlugIn\obj\Debug\SqlConnectPlugIn.csprojResolveAssemblyReference.cache
+C:\VSProjects\TablesSolution\SqlConnectPlugIn\obj\Debug\SqlConnectPlugIn.dll
+C:\VSProjects\TablesSolution\SqlConnectPlugIn\obj\Debug\SqlConnectPlugIn.pdb
+D:\VSPrj\TablesSolution\SqlConnectPlugIn\bin\Debug\SqlConnectPlugIn.dll
+D:\VSPrj\TablesSolution\SqlConnectPlugIn\bin\Debug\SqlConnectPlugIn.pdb
+D:\VSPrj\TablesSolution\SqlConnectPlugIn\bin\Debug\IPluginsConnect.dll
+D:\VSPrj\TablesSolution\SqlConnectPlugIn\bin\Debug\IPluginsConnect.pdb
+D:\VSPrj\TablesSolution\SqlConnectPlugIn\obj\Debug\SqlConnectPlugIn.csprojResolveAssemblyReference.cache
+D:\VSPrj\TablesSolution\SqlConnectPlugIn\obj\Debug\SqlConnectPlugIn.dll
+D:\VSPrj\TablesSolution\SqlConnectPlugIn\obj\Debug\SqlConnectPlugIn.pdb
+D:\VSPRJ\TablesSolution\SqlConnectPlugIn\bin\Debug\SqlConnectPlugIn.dll.config

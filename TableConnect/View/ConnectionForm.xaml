@@ -1,0 +1,142 @@
+﻿<Window x:Class="TableConnect.View.ConnectionForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TableConnect.View"
+        xmlns:vm="clr-namespace:TableConnect.ViewModel"
+        mc:Ignorable="d"
+        Title="ConnectionForm" Height="382.35" Width="479">
+    <Window.DataContext>
+        <vm:ConnectionFormViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <vm:ConnectionFormViewModel x:Key="ConnectionFormViewModel"/>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Left" Width="470">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="1"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox x:Name="groupBox"
+    		Width="461"
+    		Height="179"
+    		Margin="5,4,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Header="Connection"
+    		RenderTransformOrigin="-1.45,-0.724" />
+        <TextBlock x:Name="textBlock"
+    		Width="149"
+    		Margin="12,27,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="Select plugin "
+    		TextWrapping="Wrap" />
+        <TextBlock x:Name="textBlock_Copy"
+    		Width="149"
+    		Margin="12,55,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="Connection string"
+    		TextWrapping="Wrap" />
+        <TextBox x:Name="txtDataSource"
+    		Width="222"
+    		Height="21"
+    		Margin="226,52,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="{Binding serverName, Mode=TwoWay}"
+    		TextWrapping="Wrap" />
+        <TextBlock x:Name="textBlock_Copy1"
+    		Width="149"
+    		Margin="12,82,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="Name"
+    		TextWrapping="Wrap" />
+        <TextBox x:Name="txtUserID"
+    		Width="222"
+    		Height="21"
+    		Margin="226,79,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="{Binding userName}"
+    		TextWrapping="Wrap" />
+        <TextBlock x:Name="textBlock_Copy2"
+    		Width="149"
+    		Margin="12,109,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="Password"
+    		TextWrapping="Wrap" />
+        <TextBox x:Name="txtPassword"
+    		Width="222"
+    		Height="21"
+    		Margin="226,106,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="{Binding password}"
+    		TextWrapping="Wrap" />
+        <ComboBox x:Name="cmbSelectPlugin"
+    		Width="225"
+    		Margin="226,24,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+            ItemsSource="{Binding listPlugins}"
+            SelectedItem="{Binding SelectedPlugin}"
+                  />
+        <CheckBox x:Name="cbAuth"
+    		Width="157"
+    		Height="18"
+    		Margin="227,134,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Content="CheckBox" />
+        <Button x:Name="btnTestConnect"
+    		Width="75"
+    		Margin="227,153,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Click="btnTestConnect_Click"
+    		Content="Connect" />
+        <Button x:Name="btnCancel"
+    		Width="75"
+    		Margin="393,248,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Click="btnCancel_Click"
+    		Content="Cancel" />
+        <Button x:Name="btnOpenTable"
+    		Width="75"
+    		Margin="312,249,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Click="btnOpenTable_Click"
+    		Content="Open" />
+        <ComboBox x:Name="cmbDatabases"
+    		Width="214"
+    		Margin="230,190,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top" />
+        <TextBlock x:Name="textBlockDatabase"
+    		Width="149"
+    		Margin="17,194,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="Select database"
+    		TextWrapping="Wrap" />
+        <ComboBox x:Name="cmbTables"
+    		Width="214"
+    		Margin="229,218,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top" />
+        <TextBlock x:Name="textBlockTable"
+    		Width="149"
+    		Margin="18,222,0,0"
+    		HorizontalAlignment="Left"
+    		VerticalAlignment="Top"
+    		Text="Select table"
+    		TextWrapping="Wrap" />
+    </Grid>
+</Window>

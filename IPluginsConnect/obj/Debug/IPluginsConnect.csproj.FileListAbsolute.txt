@@ -1,0 +1,12 @@
+C:\VSProjects\TablesSolution\IPluginsConnect\bin\Debug\IPluginsConnect.dll
+C:\VSProjects\TablesSolution\IPluginsConnect\bin\Debug\IPluginsConnect.pdb
+C:\VSProjects\TablesSolution\IPluginsConnect\obj\Debug\IPluginsConnect.dll
+C:\VSProjects\TablesSolution\IPluginsConnect\obj\Debug\IPluginsConnect.pdb
+D:\VSPrj\TablesSolution\IPluginsConnect\bin\Debug\IPluginsConnect.dll
+D:\VSPrj\TablesSolution\IPluginsConnect\bin\Debug\IPluginsConnect.pdb
+D:\VSPrj\TablesSolution\IPluginsConnect\obj\Debug\IPluginsConnect.dll
+D:\VSPrj\TablesSolution\IPluginsConnect\obj\Debug\IPluginsConnect.pdb
+C:\VSProjects\TablesSolution\IPluginsConnect\obj\Debug\IPluginsConnect.csprojResolveAssemblyReference.cache
+D:\VSPRJ\TablesSolution\IPluginsConnect\bin\Debug\IPluginsConnect.dll.config
+D:\VSPRJ\TablesSolution\IPluginsConnect\bin\Debug\MySql.Data.dll
+D:\VSPRJ\TablesSolution\IPluginsConnect\obj\Debug\IPluginsConnect.csprojResolveAssemblyReference.cache

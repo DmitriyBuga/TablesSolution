@@ -1,0 +1,82 @@
+﻿<Window x:Class="ConnectTable.View.ViewTables"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:ConnectTable.View"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:ConnectTable.ViewModel"
+        Title="ViewTables"
+        HorizontalContentAlignment="Stretch"
+        VerticalContentAlignment="Stretch"
+        Closing="Window_Closing"
+        WindowState="Maximized"
+        mc:Ignorable="d">
+    <Window.Resources>
+        <vm:ViewModelTables x:Key="ViewModelTables" />
+    </Window.Resources>
+    <Grid>
+
+        <TabControl x:Name="tabControl"
+                    Grid.RowSpan="4"
+                    Margin="3,3,2,25" />
+        <Button x:Name="btnFilter"
+                Width="47"
+                Margin="73,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding SetFilterUserCommand}"
+                Content="Set filter"
+                RenderTransformOrigin="-0.227,0.5" />
+        <Button x:Name="btnClose"
+                Width="57"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Command="{Binding CloseUserCommand}"
+                Content="Close" />
+        <Button x:Name="btnXLS"
+                Width="45"
+                Margin="188,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding Export2XLSUserCommand}"
+                Content="XLS" />
+        <Button x:Name="btnDelete"
+                Width="61"
+                Margin="7,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding CloseTableUserCommand}"
+                Content="Close table" />
+        <Button x:Name="btnOpenTable"
+                Width="67"
+                Margin="338,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding OpenTableUserCommand}"
+                Content="Open new" />
+        <Button x:Name="btnClearFilter"
+                Width="59"
+                Margin="125,0,0,1"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding ClearFilterUserCommand}"
+                Content="Clear filter" />
+        <Button x:Name="btnPDF"
+                Width="45"
+                Margin="238,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding Export2PDFUserCommand}"
+                Content="PDF"
+                RenderTransformOrigin="1.6,0.55" />
+        <Button x:Name="btnCSV"
+                Width="45"
+                Margin="288,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding Export2CSVUserCommand}"
+                Content="CSV"
+                RenderTransformOrigin="1.6,0.55" />
+
+    </Grid>
+</Window>

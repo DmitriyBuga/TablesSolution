@@ -1,0 +1,51 @@
+﻿<Window x:Class="ConnectTable.View.ViewFilter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:ConnectTable.View"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Set filter"
+        Width="345.074"
+        Height="315.473"
+        mc:Ignorable="d">
+    <Grid Margin="0,0,-1,0">
+        <Button x:Name="btnSetFilter"
+                Width="75"
+                Margin="3,0,0,1"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Command="{Binding SetFilterUserCommand}"
+                Content="Set filter" />
+
+        <Button x:Name="btnClose"
+                Width="75"
+                Margin="0,0,1,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Command="{Binding CloseUserCommand}"
+                Content="Cancel" />
+        <DataGrid x:Name="dataGrid"
+                  Margin="0,0,2,24"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="100"
+                                    Binding="{Binding Path=fieldName}"
+                                    Header="Field name" />
+                <DataGridTemplateColumn Header="Operator">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox ItemsSource="{Binding DataContext.Operators, RelativeSource={RelativeSource AncestorType=Window}}" SelectedItem="{Binding Operator, UpdateSourceTrigger=PropertyChanged}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Width="100"
+                                    Binding="{Binding Path=textValue}"
+                                    Header="Value" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+
+
+    </Grid>
+</Window>

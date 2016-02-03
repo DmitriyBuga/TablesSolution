@@ -1,0 +1,15 @@
+C:\VSProjects\TablesSolution\ViewTables\bin\Debug\ViewTables.exe.config
+C:\VSProjects\TablesSolution\ViewTables\bin\Debug\ViewTables.exe
+C:\VSProjects\TablesSolution\ViewTables\bin\Debug\ViewTables.pdb
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\View\TablesView.g.cs
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\App.g.cs
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\ViewTables_MarkupCompile.cache
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\ViewTables_MarkupCompile.lref
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\View\TablesView.baml
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\ViewTables.g.resources
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\ViewTables.Properties.Resources.resources
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\ViewTables.csproj.GenerateResource.Cache
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\ViewTables.exe
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\ViewTables.pdb
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\View\ConnectForm.g.cs
+C:\VSProjects\TablesSolution\ViewTables\obj\Debug\View\ConnectForm.baml
